@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<go-plugin id="docker" version="1">
+<about>
+    <name>Docker plugin</name>
+    <version>0.1.0</version>
+    <target-go-version>14.3</target-go-version>
+    <description>Plugin that polls a docker registry</description>
+    <vendor>
+        <name>Derek Hammer</name>
+        <url>http://github.com/hammerdr/go-docker-registry-poller</url>
+    </vendor>
+</about>
+</go-plugin>
+
