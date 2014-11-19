@@ -68,7 +68,7 @@
 
     <target name="compile.source" depends="prepare, resolve">
         <javac srcdir="./src" destdir="${target.dir}/src" classpathref="compile.classpath" includeantruntime="false"
-               source="1.6"/>
+               source="1.7" target="1.7"/>
     </target>
 
 
